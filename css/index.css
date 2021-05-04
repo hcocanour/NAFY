@@ -1,0 +1,139 @@
+.navbar {
+  min-height: 172px;
+  background-color: #DFA213;
+  color: #393733;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+}
+
+.navbar img {
+  width: 60%;
+  padding: 5px;
+}
+
+.bg-light {
+  background-color: #DFA213;
+}
+
+.form-inline {
+  background-color: #E8C97E;
+  font-family: 'Barlow', sans-serif;
+}
+
+.form-control {
+  background-color: #E8C97E;
+  border-color: #E8C97E ;
+  font-family: 'Barlow', sans-serif;
+}
+
+.btn-outline-success {
+  background-color: #E8C97E;
+  color: #C6481B;
+  border-color: #C6481B;
+}
+
+.body {
+  font-family: 'Barlow', sans-serif;
+  color: #393733;
+  background-color: #F1F0EA;
+  text-align: center;
+  padding: 50px;
+}
+
+
+.title {
+  font-size: 48pt;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.sub {
+  font-size: 24pt;
+  font-weight: 800;
+}
+
+.copy {
+  font-size: 18pt;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.hero {
+  width: 100vw;
+  justify-content: center;
+}
+
+.cardContainer {
+  margin-bottom: 15px;
+}
+.card {
+  margin: 0 auto;
+}
+.card img {
+  width: 60%;
+  padding: 10px;
+}
+.row {
+  justify-content: center;
+  width: 100%;
+}
+
+.btn:hover { 
+  background-color: #C6481B;
+  border-color: #C6481B;
+ }
+
+.h4 {
+  font-size: 24pt;
+  align-items: center;
+  font-weight: 700;
+  padding: 15px;
+
+}
+ .h5 {
+   font-size: 18pt;
+   align-items: center;
+   font-weight: 600;
+ }
+
+ .donate {
+   background-color: #93AF81;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-right: 40px;
+ }
+
+ .service {
+  background-color: #93AF81;
+  align-content: center;
+  color: #F1F0EA;
+
+}
+
+.servicesButton {
+  align-content: center;
+  padding-top: 25px;
+}
+
+ .list {
+   text-align: left;
+   margin-left: 150px;
+   margin-right: 150px;
+   padding: 15px;
+ }
+ .footer {
+   background-color: #393733;
+   height: 284px;
+   color: #F1F0EA;
+ }
+
+ .dropdown-menu{
+  background-color: #F1F0EA;
+  border-color: #DFA213;
+  border-width: 3pt;
+}
+
+.dropdown-item:hover {
+  color: #F1F0EA;
+  background-color: #C6481B;
+}

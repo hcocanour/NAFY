@@ -1,14 +1,9 @@
 .navbar {
-  min-height: 172px;
+  min-height: 140px;
   background-color: #DFA213;
   color: #393733;
   font-family: 'Barlow', sans-serif;
   font-weight: 800;
-}
-
-.navbar img {
-  width: 60%;
-  padding: 5px;
 }
 
 .bg-light {
@@ -37,9 +32,7 @@
   color: #393733;
   background-color: #F1F0EA;
   text-align: center;
-  padding: 50px;
 }
-
 
 .title {
   font-size: 48pt;
@@ -50,17 +43,18 @@
 .sub {
   font-size: 24pt;
   font-weight: 800;
+  padding-top: 50px;  
+  padding-bottom: 12px;
+
 }
 
 .copy {
   font-size: 18pt;
   font-weight: 400;
   padding: 15px;
-}
-
-.hero {
-  width: 100vw;
-  justify-content: center;
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .cardContainer {
@@ -78,37 +72,13 @@
   width: 100%;
 }
 
-.btn:hover { 
-  background-color: #C6481B;
-  border-color: #C6481B;
- }
-
-.h4 {
-  font-size: 24pt;
-  align-items: center;
-  font-weight: 700;
-  padding: 15px;
-
+.link {
+  text-decoration: underline;
+  color: #C6481B;
+  size: 22pt;
 }
- .h5 {
-   font-size: 18pt;
-   align-items: center;
-   font-weight: 600;
- }
- .link {
-   text-decoration: underline;
-   color: #C6481B;
-   size: 22pt;
- }
 
- .donate {
-   background-color: #93AF81;
-   padding-left: 30px;
-   padding-right: 30px;
-   margin-right: 40px;
- }
-
- .service {
+.service {
   background-color: #93AF81;
   align-content: center;
   color: #F1F0EA;
@@ -120,6 +90,33 @@
   padding-top: 25px;
 }
 
+ .btn:hover { 
+  background-color: #C6481B;
+  border-color: #C6481B;
+ }
+
+
+
+ .h4 {
+  font-size: 24pt;
+  align-items: center;
+  font-weight: 700;
+  padding: 15px;
+
+}
+ .h5 {
+   font-size: 18pt;
+   align-items: center;
+   font-weight: 600;
+ }
+
+ .donate {
+   background-color: #93AF81;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-right: 40px;
+ }
+
  .list {
    text-align: left;
    margin-left: 150px;
@@ -127,22 +124,42 @@
    padding: 15px;
  }
  .footer {
-  background-color: #393733;
-  height: 284px;
-  color: #F1F0EA;
-  padding: 60px;
-  font-size: 10pt;
-  align-items: center;
-  font-weight: 600;
-}
+   background-color: #393733;
+   height: 284px;
+   color: #F1F0EA;
+   padding: 60px;
+   font-size: 10pt;
+   align-items: center;
+   font-weight: 600;
+ }
 
  .dropdown-menu{
-  background-color: #F1F0EA;
-  border-color: #DFA213;
-  border-width: 3pt;
+  background-color: #DFA213;
+  border-left: 1px solid #F1F0EA;
+
 }
 
 .dropdown-item:hover {
   color: #F1F0EA;
   background-color: #C6481B;
+}
+
+
+.footerText {
+ padding-top: 40px;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #F1F0EA;
+}
+.hero {
+  width: 100vw;
+}
+.list {
+  padding-bottom: 30px;
+}
+
+.igiveup {
+  height: 25px;
+  background-color: #F1F0EA;
 }

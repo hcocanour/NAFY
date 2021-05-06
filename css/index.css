@@ -152,14 +152,10 @@
 .dropdown-divider {
   border-top: 1px solid #F1F0EA;
 }
-.hero {
+.img-fluid {
   width: 100vw;
 }
-.list {
-  padding-bottom: 30px;
-}
-
-.igiveup {
-  height: 25px;
+.hero {
+  text-align: center;
   background-color: #F1F0EA;
 }

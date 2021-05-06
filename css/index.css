@@ -95,6 +95,11 @@
    align-items: center;
    font-weight: 600;
  }
+ .link {
+   text-decoration: underline;
+   color: #C6481B;
+   size: 22pt;
+ }
 
  .donate {
    background-color: #93AF81;
@@ -122,10 +127,14 @@
    padding: 15px;
  }
  .footer {
-   background-color: #393733;
-   height: 284px;
-   color: #F1F0EA;
- }
+  background-color: #393733;
+  height: 284px;
+  color: #F1F0EA;
+  padding: 60px;
+  font-size: 10pt;
+  align-items: center;
+  font-weight: 600;
+}
 
  .dropdown-menu{
   background-color: #F1F0EA;

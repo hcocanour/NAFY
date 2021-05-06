@@ -118,6 +118,11 @@ a {
   text-decoration: none;
   color: #393733;
 }
+a:hover {
+  text-decoration: none;
+  color: #393733;
+}
+
  .donate {
    background-color: #93AF81;
    padding-left: 30px;
